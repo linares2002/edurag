@@ -22,3 +22,7 @@ The initial rollout takes place in:
 - **Master's Degree in Telecommunication Engineering**
 
 Subjects: Optical Technologies, Optical Communications, Telecommunication Infrastructures, IP-based Networks.
+
+## 2. System Architecture
+
+![Arquitectura del Sistema|697](docs/system_arch.svg)
