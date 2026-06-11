@@ -1,27 +1,24 @@
-## 1. Descripción General
+## 1. General Description
+**AVATAR** (_Academic Virtual Assistant with Text Augmentation and Retrieval_) is an educational web application developed for the University of Jaén as a solution to a teaching innovation project under the **PIMED 2025** call. The system combines four technologies:
 
-**AVATAR** (_Academic Virtual Assistant with Text Augmentation and Retrieval_) es una aplicación web educativa desarrollada para la Universidad de Jaén como solución a un proyecto de innovación docente de la convocatoria **PIMED 2025**. El sistema combina cuatro tecnologías:
-
-| Tecnología | Función | Implementación |
+| Technology | Function | Implementation |
 |---|---|---|
-| **RAG** (Retrieval-Augmented Generation) | Consulta de documentos académicos con respuestas contextualizadas | ChromaDB + SentenceTransformers + LLM |
-| **YOLO v8** | Reconocimiento visual de objetos en tiempo real | ultralytics YOLOv8n |
-| **Realidad Aumentada** | Superposición de contenido 3D sobre marcadores físicos | A-Frame 1.2.0 + AR.js 3.3.3 |
-| **TTS/STT** | Accesibilidad mediante voz (entrada y salida) | Web Speech API (navegador) |
+| **RAG** (Retrieval-Augmented Generation) | Academic document querying with contextualised responses | ChromaDB + SentenceTransformers + LLM |
+| **YOLO v8** | Real-time visual object recognition | ultralytics YOLOv8n |
+| **Augmented Reality** | Overlay of 3D content onto physical markers | A-Frame 1.2.0 + AR.js 3.3.3 |
+| **TTS/STT** | Voice accessibility (input and output) | Web Speech API (browser) |
 
-### Contexto y Motivación
+### Context and Motivation
+University students demand learning methods adapted to their information consumption patterns: immediacy, high visual content, and ubiquitous access from mobile devices. Traditional methods (bibliographic searches, generic LLMs such as ChatGPT) do not provide quality answers to highly specific questions relating to a particular subject.
 
-El estudiantado universitario demanda métodos de aprendizaje adaptados a sus patrones de consumo de información: inmediatez, alto contenido visual y acceso ubicuo desde dispositivos móviles. Los métodos tradicionales (búsquedas bibliográficas, LLMs genéricos como ChatGPT) no proporcionan respuestas de calidad a dudas muy específicas relativas a una asignatura concreta.
+**AVATAR** solves this problem by enabling students to:
+- Point their device camera at physical objects and receive contextualised academic information.
+- Scan AR markers in teaching materials to visualise overlaid 3D content.
+- Ask questions in natural language (text or voice) and obtain AI-generated responses based on the subject's specific documentary corpus.
 
-**AVATAR** resuelve este problema permitiendo que el estudiante:
-- Apunte con la cámara de su dispositivo a objetos físicos y reciba información académica contextualizada.
-- Escanee marcadores AR en materiales docentes para visualizar contenido 3D superpuesto.
-- Formule preguntas en lenguaje natural (texto o voz) y obtenga respuestas generadas por IA basadas en el corpus documental específico de la asignatura.
+### Degrees and Subjects
+The initial rollout takes place in:
+- **Bachelor's Degree in Telecommunication Technologies Engineering**
+- **Master's Degree in Telecommunication Engineering**
 
-### Titulaciones y Asignaturas
-
-La implantación inicial se realiza en:
-- **Grado en Ingeniería de Tecnologías de Telecomunicación**
-- **Máster en Ingeniería de Telecomunicación**
-
-Asignaturas: Tecnologías Ópticas, Comunicaciones Ópticas, Infraestructuras de Telecomunicación, Redes basadas en IP.
+Subjects: Optical Technologies, Optical Communications, Telecommunication Infrastructures, IP-based Networks.
