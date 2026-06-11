@@ -62,7 +62,7 @@
   <!-- ===== FASTAPI BACKEND ===== -->
   <rect x="390" y="70" width="350" height="490" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" filter="url(#shadow)"/>
   <text x="565" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#16a34a">BACKEND — FastAPI + Uvicorn</text>
-  <text x="565" y="108" text-anchor="middle" font-size="10" fill="#64748b">Python 3.11 · Puerto 5000</text>
+  <text x="565" y="108" text-anchor="middle" font-size="10" fill="#64748b">Python 3.11 · Port 5000</text>
 
   <!-- Routers -->
   <rect x="405" y="115" width="320" height="260" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1"/>
