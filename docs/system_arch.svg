@@ -119,7 +119,7 @@
   <!-- ChromaDB -->
   <rect x="775" y="100" width="290" height="95" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
   <text x="920" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#7c3aed">ChromaDB 1.5.5</text>
-  <text x="920" y="133" text-anchor="middle" font-size="9" fill="#334155">Vector Store · Puerto 8000 · Docker</text>
+  <text x="920" y="133" text-anchor="middle" font-size="9" fill="#334155">Vector Store · Port 8000 · Docker</text>
   <text x="920" y="148" text-anchor="middle" font-size="9" fill="#334155">Collection: scientific_articles</text>
   <text x="920" y="163" text-anchor="middle" font-size="9" fill="#334155">Embeddings: all-MiniLM-L6-v2 (384 dims)</text>
   <text x="920" y="178" text-anchor="middle" font-size="9" fill="#334155">min_score: 0.65 · max_results: 8</text>
@@ -173,11 +173,11 @@
   <rect x="35" y="475" width="145" height="50" rx="6" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
   <text x="108" y="492" text-anchor="middle" font-size="9" font-weight="bold" fill="#3730a3">ChromaDB container</text>
   <text x="108" y="507" text-anchor="middle" font-size="8" fill="#334155">chromadb/chroma:1.5.5</text>
-  <text x="108" y="520" text-anchor="middle" font-size="8" fill="#334155">Puerto 8000 · vol chroma_data</text>
+  <text x="108" y="520" text-anchor="middle" font-size="8" fill="#334155">Port 8000 · vol chroma_data</text>
   <rect x="195" y="475" width="150" height="50" rx="6" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
   <text x="270" y="492" text-anchor="middle" font-size="9" font-weight="bold" fill="#3730a3">Ollama/llama.cpp</text>
   <text x="270" y="507" text-anchor="middle" font-size="8" fill="#334155">ggml-org/llama.cpp:server</text>
-  <text x="270" y="520" text-anchor="middle" font-size="8" fill="#334155">Puerto 8080 · 6GB RAM · 8K ctx</text>
+  <text x="270" y="520" text-anchor="middle" font-size="8" fill="#334155">Port 8080 · 6GB RAM · 8K ctx</text>
 
   <!-- ===== FLECHAS ===== -->
   <!-- Browser → Backend HTTP -->
